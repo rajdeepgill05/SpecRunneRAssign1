@@ -28,3 +28,17 @@ describe(isDivisible, function(){
         expect(isDivisible(7, 2, 4)).toBe(false);
     })
 });
+
+
+
+describe(solution, function(){
+    it("should return itself if there is only one character", function(){
+        expect(solution("a").toBe("a");
+    })
+    it("should return the string reversed if it has multiple characters", function(){
+        expect(solution("aram")).toBe("mara");
+    })
+    it("should return empty string if there are no charcrters", function(){
+        expect(solution([]).toBe([]);
+    })
+});
